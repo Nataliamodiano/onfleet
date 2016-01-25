@@ -1,0 +1,167 @@
+/*header*/
+ul {
+  list-style: none;
+}
+
+.header {
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/04c74cc8/images/dots-nowave/images/map-darker07.png);
+  overflow: hidden;
+  font-family: helvetica;
+}
+
+.navigation {
+  display: block;
+  z-index: 10;
+  margin-top: 37px;
+}
+
+#logo,
+#bar {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-left: 23px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #8F8F8F;
+}
+
+#logo{
+  float: left;
+}
+
+.login{
+  height: 22px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 11px;
+  padding-top: 0px;
+  color: #fff;
+  background-color: transparent;
+}
+
+#bar{
+  float: right;
+  display: inline-block;
+  z-index: 20;
+  color: #fff;
+}
+
+.demo {
+  background-color: #009CFF;
+}
+
+.infinity {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  height: 90px; 
+  width: 194px;
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/04c74cc8/images/home/section-hero-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slogan,
+.subheader {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 20;
+  color: #fff;
+}
+
+.slogan {
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.subheader {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #8E8E8E;
+  font-weight: 200;
+}
+
+#header-buttons {
+  margin-top: 33px;
+  margin-bottom: 100px;
+}
+
+#learn-more,
+#demo {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  min-width: 150px;
+  padding-top: 6px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#learn-more {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  margin-right: 5px;
+}
+
+#demo {
+  color: #fff;
+  background-color: #009CFF;
+  border-color: #009CFF;
+  margin-left: 5px;
+}
+/*white box*/
+#deliveries {
+  margin-right: auto;
+  margin-left: auto; 
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+  color: #4b595e;
+}
+
+.white-padding {
+  padding: 90px 20px 90px 20px;
+}
+
+.cell{
+  display: block;
+  min-width: 230px;
+  margin-top: 50px;
+
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b595e;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  color: #A4ABB0;
+}
+
+#learn-more-two {
+  margin-top: 30px;
+  color: #009cff;
+  border-color: #009cff;
+  border-radius: 20px;
+}
+
+.colorful{
+  background-image: radial-gradient(circle at 100% 100%, rgb(51, 177, 248) 0px, rgb(170, 129, 243) 100%);;
+  background-color: radial-gradient(circle at bottom right,#33b1f8 0,#aa81f3 100%);
+}
+
+
+
