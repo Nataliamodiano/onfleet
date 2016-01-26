@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica;
+}
+
 /*header*/
 ul {
   list-style: none;
@@ -6,7 +10,6 @@ ul {
 .header {
   background-image: url(https://d1er272rpp2pqg.cloudfront.net/04c74cc8/images/dots-nowave/images/map-darker07.png);
   overflow: hidden;
-  font-family: helvetica;
 }
 
 .navigation {
@@ -49,10 +52,6 @@ li {
   color: #fff;
 }
 
-.demo {
-  background-color: #009CFF;
-}
-
 .infinity {
   margin-right: auto;
   margin-left: auto;
@@ -93,7 +92,7 @@ li {
 }
 
 #learn-more,
-#demo {
+.demo {
   margin-top: 10px;
   margin-bottom: 5px;
   margin-right: auto;
@@ -110,7 +109,7 @@ li {
   margin-right: 5px;
 }
 
-#demo {
+.demo {
   color: #fff;
   background-color: #009CFF;
   border-color: #009CFF;
@@ -130,11 +129,18 @@ li {
   padding: 90px 20px 90px 20px;
 }
 
+#center-spacing {
+  display: flex;
+  margin-left:auto;
+  margin-right: auto; 
+  align-items: center;
+  justify-content: space-around;
+}
+
 .cell{
   display: block;
   min-width: 230px;
   margin-top: 50px;
-
 }
 
 .title {
@@ -161,7 +167,160 @@ li {
 .colorful{
   background-image: radial-gradient(circle at 100% 100%, rgb(51, 177, 248) 0px, rgb(170, 129, 243) 100%);;
   background-color: radial-gradient(circle at bottom right,#33b1f8 0,#aa81f3 100%);
+  height: 437px;
+  padding: 90px 20px; 
 }
 
+.hundreds {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
 
+#boxbee {
+  background-image: url(images/boxbee.svg);
+  height: 29px;
+  background-repeat: no-repeat;
+  width: 126px;
+}
 
+#meadow {
+  background-image: url(images/meadow.svg);
+  height: 29px;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 34px;
+}
+
+#hellofresh {
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/814d1185/images/home/logo-hellofresh.svg);
+  height: 29px;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+}
+
+#urban {
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/814d1185/images/home/logo-urbanstems.svg);
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 104px;
+}
+
+#relay {
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/814d1185/images/home/section-customers-logo-relayfoods.svg);
+  background-repeat: no-repeat;
+  width: 121px;
+  height: 39px;
+}
+
+.logos {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 900px;
+}
+
+#blurb {
+  color: rgba(255,255,255,.65);
+  text-align: center;
+}
+
+#jumpstart {
+  height: 349px;
+  padding: 90px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+#delivery-img {
+  height: 130px;
+  padding-bottom: 30px;
+}
+
+.ready {
+  color: #4b595e;
+  margin-bottom: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+#free-demo {
+  width: 200px;
+  margin: 30px auto 10px auto;
+}
+
+.gray {
+  background-color: #F7F9FA;
+  height: 340;
+  padding: 90px 20px;
+}
+
+.legal {
+  width: 212px;
+  height: 160px
+}
+
+.product-list,
+.about-column,
+.support-column,
+.connect-column {
+  height: 160px;
+  width: 104px;
+}
+
+#small-logo {
+  background-image: url(https://d1er272rpp2pqg.cloudfront.net/814d1185/images/staticPage/navigation-logo-oneColor-overLight.svg);
+  display: block;
+  width: 131px;
+  height: 19px;
+  margin-top: 2px;
+  margin-bottom: 16px;
+}
+
+#copyright {
+  font-size: 13px;
+  color: #A4ABB0;
+}
+
+.title {
+  font-size: 15px;
+  color: #4B595E;
+  margin-bottom: 8px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+div > ul > li {
+  font-size: 15px;
+  color: #A4ABB0;
+  font-weight: 300;
+  margin: 0px 0px;
+  padding-left: 23px;
+}
+
+.container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+footer > div > div > ul {
+  padding-left: 5px;
+}
+
+.footer-demo {
+  margin-top: 13px;
+  color: #F7F9FA;
+  background-color: #009CFF;
+  height: 24px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 13px;
+  line-height: 4px;
+  border-radius: 12px;
+}
